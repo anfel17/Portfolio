@@ -55,8 +55,28 @@
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Others",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "skills": [
+        {
+          "id": "git",
+          "logo": "./img/php.png",
+          "title": "Git and Github",
+          "percentage": 70
+        },
+        {
+          "id": "SQL",
+          "logo": "./img/laravel.png",
+          "title": "SQL",
+          "percentage": 95
+        },
+        {
+          "id": "mongoDB",
+          "logo": "./img/python.png",
+          "title": "mongoDB",
+          "percentage": 50
+        }
+      ]
     }
   ],
   "portfolio": [
@@ -137,28 +157,74 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
+      "src": "./img/feedback5.png",
+      "description": "bravooo ",
+      "author_name": "Elenora diparma",
+      "author_designation": "mndemtch li t3amlt m3akm"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/feedback4.png",
+      "description": "y3tik sa7a khdma f chbeb",
+      "author_name": "daved ontonelo",
+      "author_designation": "eruli khdma w3liha lklem"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/feedback6.png",
+      "description": "malgre jdod f domaine ms nst3rf bikm ",
+      "author_name": "Katia bellaRosa",
+      "author_designation": "bonne continuation"
+    },{
+      "id": "4",
+      "count": "5",
+      "src": "./img/feedback3.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Dianne Russel",
       "author_designation": "Starbucks"
     },
     {
-      "id": "2",
+      "id": "5",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
+      "src": "./img/feedback1.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Kristin Watson",
       "author_designation": "Louis Vuitton"
     },
     {
-      "id": "3",
+      "id": "6",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
+      "src": "./img/avatar-image.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "author_name": "Kathryn Murphy",
       "author_designation": "McDonald's"
     }
+  ,{
+    "id": "7",
+    "count": "5",
+    "src": "./img/feedback2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "author_name": "Kathryn Murphy",
+    "author_designation": "McDonald's"
+  },{
+    "id": "8",
+    "count": "5",
+    "src": "./img/avatar-image-2.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "author_name": "Kathryn Murphy",
+    "author_designation": "McDonald's"
+  },{
+    "id": "9",
+    "count": "5",
+    "src": "./img/avatar-image-1.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "author_name": "Kathryn Murphy",
+    "author_designation": "McDonald's"
+  }
   ]
+
   
   
 }

@@ -1,7 +1,21 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import ContactModal from './ContactModal'; 
 
 function Navbar() {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+    const openModal = () => {
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+  
+   
+
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => {
@@ -104,19 +118,18 @@ function Navbar() {
             </Link>
           </li>
           <li>
-          <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="navbar--content"
-      >
-        Contact Me
-      </Link>
-          </li>
+        <Link
+          onClick={() => {
+            closeMenu();
+            openModal();
+          }}
+         
+          className="navbar--content"
+        >
+          Contact Me
+        </Link>
+      </li>
+      <ContactModal isOpen={isModalOpen} onClose={closeModal} />
         </ul>
       </div>
      

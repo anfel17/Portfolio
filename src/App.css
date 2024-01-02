@@ -37,10 +37,6 @@ p {
   text-align: center;
   text-decoration: none;
   border-radius: 4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
   transition: background-color 0.5s;
   -webkit-transition: background-color 0.5s;
   -moz-transition: background-color 0.5s;
@@ -55,18 +51,18 @@ p {
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
-}
+} */
 .btn-outline-primary:hover {
   color: var(--white);
   background-color: var(--primary);
 
 }
-.btn-primary {
+  .btn-primary {
   width: 100px;
   color: var(--white);
   background: linear-gradient(to right, #513aaf, #f0aeda); 
  
-}
+} 
 .btn-primary:hover {
   color: var(--primary);
   background-color: var(--white);
@@ -407,9 +403,26 @@ h2 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+.portfolio--section--card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background: #fff;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio--section--card:hover {
+  transform: scale(1.05);
+}
 /* Portfolio Ends */
 
-/* Testimonial */
+Testimonial
 .testimonial--section {
   display: flex;
   padding: 112px 84.3px;
@@ -475,6 +488,9 @@ h2 {
   row-gap: 32px;
 }
 .contact--label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top:15px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -490,7 +506,8 @@ h2 {
   align-self: stretch;
   border-radius: 8px;
   border: 1.333px solid var(--primary);
-  background: var(--white);
+  background:  rgb(234, 234, 234);
+
 }
 select {
   -webkit-appearance: none;
@@ -789,8 +806,13 @@ select::-ms-expand {
 .percentage-label {
   margin-left: 5px; /* Ajustez cette valeur selon vos besoins */
   font-weight: bold;
+ 
 }
 
+
+/* Your CSS file */
+
+/* Your CSS file */
 
 .portfolio--section--filter-buttons {
   display: flex;
@@ -801,19 +823,92 @@ select::-ms-expand {
   text-align: center;
 }
 
+/* Apply specific styles to each button based on the category */
+.portfolio--section--filter-buttons button:nth-child(1) {
+  border: 1px solid rgba(255, 255, 255, 0); /* Change border color to transparent */
+  border-radius: 55px 0 0 55px;
+}
+
+.portfolio--section--filter-buttons button:nth-child(2) {
+  border-top: 1px solid rgba(255, 255, 255, 0); /* Change border color to transparent */
+  border-bottom: 1px solid rgba(255, 255, 255, 0); /* Change border color to transparent */
+}
+
+.portfolio--section--filter-buttons button:nth-child(3) {
+  border: 1px solid rgba(255, 255, 255, 0); /* Change border color to transparent */
+  border-radius: 0 55px 55px 0;
+}
+
+/* Apply the 'active' class style to the selected button */
+.portfolio--section--filter-buttons button.active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Additional styles for buttons */
 .portfolio--section--filter-buttons button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 30px 20px;
+  background-color: #f9ecec;
+  padding: 15px 60px; /* Adjust padding for width */
+  font-size: 16px;
+  margin: 0; /* Remove margin between buttons */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+  height: 50px; /* Adjust height */
 }
 
+/* 'active' class style for specific buttons */
 .portfolio--section--filter-buttons button.active {
-  background-color: #45a049;
+  background: linear-gradient(to right, #6c1f8a, #ef9bd3);
+}
+
+
+
+
+
+
+.testimonials-carousel {
+  margin: 40px;
+
+
+}
+
+.testimonial {
+  border: 1px solid #006b6a;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px;
+  transition: transform 0.3s, border-width 0.3s; /* Ajoutez une transition pour l'effet d'agrandissement et d'augmentation de la bordure */
+}
+
+.testimonial:hover {
+  transform: scale(1.05);
+  border-width: 2px; /* Augmente la largeur de la bordure lors du survol */
+}
+
+.testimonial-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.testimonial-text {
+  flex-grow: 3;
+  font-size: 1.2em;
+}
+
+.social-icon {
+  transition: transform 0.3s ease-in-out;
+  gap: 40px; /* Ajoutez une transition pour l'effet d'animation */
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Ajustez la valeur selon la taille souhaitée lors du survol */
 }
