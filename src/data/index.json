@@ -1,0 +1,164 @@
+{
+
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "skills": [
+        {
+          "id": "js",
+          "logo": "./img/js.png",
+          "title": "JavaScript",
+          "percentage": 98
+        },
+        {
+          "id": "react",
+          "logo": "./img/react.png",
+          "title": "React",
+          "percentage": 60
+        },
+        {
+          "id": "flutter",
+          "logo": "./img/flutter.png",
+          "title": "Flutter",
+          "percentage": 80
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "skills": [
+        {
+          "id": "php",
+          "logo": "./img/php.png",
+          "title": "PHP",
+          "percentage": 90
+        },
+        {
+          "id": "laravel",
+          "logo": "./img/laravel.png",
+          "title": "Laravel",
+          "percentage": 80
+        },
+        {
+          "id": "js",
+          "logo": "./img/python.png",
+          "title": "Python",
+          "percentage": 60
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "category": "web app",
+      "src": "./img/webS1.png",
+      "title": "StasEasy",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/yousraBsn/gestionDeStage_Backend"
+    },
+    {
+      "id": "2",
+      "category": "web app",
+      "src": "./img/webS2.png",
+      "title": "Gestionnaire d'absences",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/daw-team/gestionnaire.git"
+    },
+    {
+      "id": "3",
+      "category": "web app",
+      "src": "./img/webS3.png",
+      "title": "Internify",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/Ala404/InternshipManagment.git"
+    },
+    {
+      "id": "4",
+      "category": "android app",
+      "src": "./img/threeApp.png",
+      "title": "StageEasy ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/yousraBsn/mobileLicence.git"
+    },
+    {
+      "id": "5",
+      "category": "android app",
+      "src": "./img/threeApp3.png",
+      "title": "VivaMark",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/daminvo/Viva-Mark.git"
+    },
+    {
+      "id": "6",
+      "category": "android app",
+      "src": "./img/threeApp2.png",
+      "title": "internify",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/anfel17/internship_management_app-.git"
+    },
+    {
+      "id": "7",
+      "category": "machine learning",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "8",
+      "category": "machine learning",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "9",
+      "category": "machine learning",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+  
+  
+}
