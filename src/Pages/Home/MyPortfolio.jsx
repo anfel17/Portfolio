@@ -11,13 +11,9 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <h2 className="myPort">My Portfolio</h2>
         </div>
-        <div>
-          <button className="btn btn-github">
-            {/* Votre bouton GitHub ici */}
-          </button>
-        </div>
+        
       </div>
       <div className="portfolio--section--filter-buttons">
         <button className={selectedCategory === 'web app' ? 'active' : ''} onClick={() => setSelectedCategory('web app')}>Web App</button>

@@ -6,13 +6,13 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Yussel</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Full Stack</span>{" "}
+            <span className="hero--section-title--color">Welcome to my portfolio</span>{" "}
             <br />
             Developer
           </h1>
           <p className="hero--section-description">
-          A Full Stack focused Developer building the Frontend and backend of Web and Mobile Applications 
-            <br /> that leads to the success of the overall product
+          A Full Stack developer specializing in crafting both the frontend and backend of web and mobile applications 
+            <br /> driving the overall success of the product.
             <br />
           </p>
         </div>

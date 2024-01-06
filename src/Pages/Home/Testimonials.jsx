@@ -1,9 +1,10 @@
-import data from "../../data/index.json";
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import  testimonialsData  from '../../data/index.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import testimonialsData from '../../data/index.json';
 
 const TestimonialsCarousel = () => {
   const settings = {
@@ -11,7 +12,8 @@ const TestimonialsCarousel = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
+    
     responsive: [
       {
         breakpoint: 768,
@@ -20,8 +22,10 @@ const TestimonialsCarousel = () => {
           slidesToScroll: 1,
         },
       },
+     
     ],
   };
+ 
 
   return (
     <div className="testimonials-carousel">
@@ -38,8 +42,13 @@ const TestimonialsCarousel = () => {
             <p>{testimonial.author_designation}</p>
           </div>
         ))}
+        
       </Slider>
+     
+      
     </div>
+    
+    
   );
 };
 

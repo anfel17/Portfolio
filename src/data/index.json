@@ -60,19 +60,19 @@
       "skills": [
         {
           "id": "git",
-          "logo": "./img/php.png",
+          "logo": "./img/git.png",
           "title": "Git and Github",
           "percentage": 70
         },
         {
           "id": "SQL",
-          "logo": "./img/laravel.png",
+          "logo": "./img/bd.png",
           "title": "SQL",
           "percentage": 95
         },
         {
-          "id": "mongoDB",
-          "logo": "./img/python.png",
+          "id": "phpMyAdmin",
+          "logo": "./img/phpMyadmin.png",
           "title": "mongoDB",
           "percentage": 50
         }
@@ -85,7 +85,7 @@
       "category": "web app",
       "src": "./img/webS1.png",
       "title": "StasEasy",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Stage Easy is a website that I created to simplify the search and application process for internships. It was built using Laravel and Vue.js",
       "link": "https://github.com/yousraBsn/gestionDeStage_Backend"
     },
     {
@@ -93,7 +93,7 @@
       "category": "web app",
       "src": "./img/webS2.png",
       "title": "Gestionnaire d'absences",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Absence Manager is a web application built with Laravel and Vue.js, aimed at keeping teachers and students connected",
       "link": "https://github.com/daw-team/gestionnaire.git"
     },
     {
@@ -101,7 +101,7 @@
       "category": "web app",
       "src": "./img/webS3.png",
       "title": "Internify",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "internify is a website that facilites the internship managment and I used laravel vue js and sql for its development.",
       "link": "https://github.com/Ala404/InternshipManagment.git"
     },
     {
@@ -109,7 +109,7 @@
       "category": "android app",
       "src": "./img/threeApp.png",
       "title": "StageEasy ",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Stage Easy introduces its mobile app version, crafted and powered by Flutter ",
       "link": "https://github.com/yousraBsn/mobileLicence.git"
     },
     {
@@ -117,7 +117,7 @@
       "category": "android app",
       "src": "./img/threeApp3.png",
       "title": "VivaMark",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "VivaMark is a mobile application that facilitates the evaluation task and helps calculate the final grade.",
       "link": "https://github.com/daminvo/Viva-Mark.git"
     },
     {
@@ -125,7 +125,7 @@
       "category": "android app",
       "src": "./img/threeApp2.png",
       "title": "internify",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Internify is the mobile iteration of my website, crafted meticulously using the Flutter framework for seamless user experiences",
       "link": "https://github.com/anfel17/internship_management_app-.git"
     },
     {
@@ -158,38 +158,38 @@
       "id": "1",
       "count": "5",
       "src": "./img/feedback5.png",
-      "description": "bravooo ",
+      "description": "Excellent customer service! ",
       "author_name": "Elenora diparma",
-      "author_designation": "mndemtch li t3amlt m3akm"
+      "author_designation": " Quick responses and effective solutions."
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/feedback4.png",
-      "description": "y3tik sa7a khdma f chbeb",
+      "description": "A true professional.",
       "author_name": "daved ontonelo",
-      "author_designation": "eruli khdma w3liha lklem"
+      "author_designation": "Communication was clear and consistent throughout the development process. "
     },
     {
       "id": "3",
       "count": "5",
       "src": "./img/feedback6.png",
-      "description": "malgre jdod f domaine ms nst3rf bikm ",
+      "description": "Impressive expertise in the field of development. ",
       "author_name": "Katia bellaRosa",
-      "author_designation": "bonne continuation"
+      "author_designation": " We are extremely satisfied with the result."
     },{
       "id": "4",
       "count": "5",
       "src": "./img/feedback3.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "The quality of work is remarkable.",
       "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "author_designation": " Every aspect of the project was handled with great precision."
     },
     {
       "id": "5",
       "count": "5",
       "src": "./img/feedback1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Clean and efficient code, timely delivery",
       "author_name": "Kristin Watson",
       "author_designation": "Louis Vuitton"
     },
@@ -197,7 +197,7 @@
       "id": "6",
       "count": "5",
       "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Accurate solutions, smooth collaboration.",
       "author_name": "Kathryn Murphy",
       "author_designation": "McDonald's"
     }
@@ -205,21 +205,21 @@
     "id": "7",
     "count": "5",
     "src": "./img/feedback2.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "description": "Remarkable technical expertise, clear communication.",
     "author_name": "Kathryn Murphy",
     "author_designation": "McDonald's"
   },{
     "id": "8",
     "count": "5",
     "src": "./img/avatar-image-2.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "description": "Problems resolved swiftly, exceptional results",
     "author_name": "Kathryn Murphy",
     "author_designation": "McDonald's"
   },{
     "id": "9",
     "count": "5",
     "src": "./img/avatar-image-1.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+    "description": "Innovative and creative, great attention to detail.Reliable developer, flawless delivery",
     "author_name": "Kathryn Murphy",
     "author_designation": "McDonald's"
   }
